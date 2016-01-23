@@ -1,0 +1,22 @@
+...\@DayZ_Epoch_Server\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\custom\
+
+В файле:
+	...\@DayZ_Epoch_Server\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\custom\kick_all.sqf
+	Впишите свои данные к РКОН - Ип сервера, логин, пароль.
+В файле:
+	...\@DayZ_Epoch_Server\addons\dayz_server\missions\DayZ_Epoch_11.Chernarus\custom\variables.sqf
+	Замените пути к ини файлам, на свои(если у вас по другому пути установлена АрмА2ОА)
+	
+Для пополнения баланса админ монет, в файл
+	.../ini/#1Ultima/payment.ini
+	Ниже раздела
+		[balance]
+	Впишите
+		UID=["UID", Сумма]
+	Пример:
+		1234=["1234", 100]
+		5456=["5456", 99.9]
+	*Баланс пополнится при рестарте.
+	
+*Не забудьте поменять везде имя сервера, на Ваше, а так же приветствие, картинку и т.п. данные.
+**Так же не забудьте в файле HiveExt.ini заменить имя Базы Данных, Логин, Пароль, на Ваши.
